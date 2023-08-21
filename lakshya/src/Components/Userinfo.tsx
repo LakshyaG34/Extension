@@ -26,7 +26,7 @@ interface IPInfoData {
         {userData ? (
           <Popup country={userData.country} city={userData.city} />
         ) : (
-            <div className="bg-blue-500 text-red p-4"><p>Loading user data...</p></div>
+            <div className="text-white"><p>Loading user data...</p></div>
           
         )}
       </div>
