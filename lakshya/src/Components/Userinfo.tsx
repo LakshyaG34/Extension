@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Popup from './Popup';
+import './style1.css'
 interface IPInfoData {
     ip: string;
     city: string;

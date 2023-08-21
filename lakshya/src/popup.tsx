@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import UserInfo from './Components/Userinfo';
 
 import './style.css'
@@ -40,7 +40,7 @@ const [userIP, setUserIP] = useState<string | null>(null);
     {userIP ? (
       <UserInfo userIP={userIP} />
     ) : (
-      <p className="loading">Loading IP address...</p>
+      <p className="loading">Click below to get your location</p>
     )}
     <Button onClick={handleClick} label = "click me"/>
   </div>
