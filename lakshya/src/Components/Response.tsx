@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css'
-function Popup({ country, city }: { country: string; city: string }) {
+function Response({ country, city }: { country: string; city: string }) {
     const popupText = `Your country is ${country} and city is ${city}`;
   
     return (
@@ -9,4 +9,4 @@ function Popup({ country, city }: { country: string; city: string }) {
       </div>
     );
   }
-  export default Popup;
+  export default Response;

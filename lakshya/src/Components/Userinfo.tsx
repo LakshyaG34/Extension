@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Popup from './Popup';
+import Response from './Response';
 import './style1.css'
 interface IPInfoData {
     ip: string;
@@ -24,7 +24,7 @@ interface IPInfoData {
       return (
         <div className= "loading1">
         {userData ? (
-          <Popup country={userData.country} city={userData.city} />
+          <Response country={userData.country} city={userData.city} />
         ) : (
             <div className="text-white"><p>Loading user data...</p></div>
           
